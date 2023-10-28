@@ -1,0 +1,23 @@
+.background {
+  background-image: url('wb.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1; /* Keep the opacity at 1 for the background image */
+  z-index: -1;
+}
+
+.content {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.8); /* Use rgba to set background color with transparency */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style your text and buttons */

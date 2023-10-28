@@ -1,0 +1,10 @@
+instructions 
+
+
+1) download the nodejs -> https://nodejs.org/dist/v20.9.0/node-v20.9.0-x64.msi 
+2) install the libraries with the versions mentioned web3@1.5.2, ether.js@1.0.0 and ethers@5.7.2 
+3) we will be having  the byte code and ABI after sucessfully compiling the smart contract code (solidity code)
+4) to get the contract address, we use ABI and Byte code from above step , and deploy the smart contract on the network
+5) deploy_web3.js file need to executed using  node deploy_web3.js and test file can be also be executed to get some info about the account node test.js
+5) In the App.js , pid.json contains the ABI 
+6) we navigate to the node installed folder and type  npm start on the terminal to start the application.
